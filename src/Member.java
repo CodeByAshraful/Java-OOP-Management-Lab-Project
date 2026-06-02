@@ -8,10 +8,12 @@ public class Member extends GymPerson {
         this.membershipType = membershipType;
     }
 
+    // Getter method for membership type
     public String getMembershipType() {
         return membershipType;
     }
 
+    // Method overriding from GymPerson class
     @Override
     public void displayInfo() {
         System.out.println("Member Name: " + name);
@@ -19,6 +21,7 @@ public class Member extends GymPerson {
         System.out.println("Membership: " + membershipType);
     }
 
+   // Convert object information into string format
     @Override
     public String toString() {
         return "Member Name: " + name +
