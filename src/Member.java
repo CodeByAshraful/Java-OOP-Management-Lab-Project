@@ -2,6 +2,7 @@ public class Member extends GymPerson {
 
     private String membershipType;
 
+    // Constructor to initialize member information
     public Member(String name, int id, String membershipType) {
         super(name, id);
         this.membershipType = membershipType;
